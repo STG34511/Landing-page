@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -45,8 +44,76 @@ ul{
 .right ul{
     justify-content: flex-end;
 }
+.info ul{
+    gap:32px;
+}
+.info li{
+    max-width: 150px;
+}
+.in-header{
+    font-size: 36px;
+    
+}
 .info div{
     text-align: center;
-    font-size: 32px;
+    padding:16px;
 }
 
+.qoute{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding:32px
+
+}
+.qoute div{
+    max-width: 700px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    align-self: flex-end;
+}
+#qoute{
+    font-style: italic;
+    font-weight: 100;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding-inline: 16px;
+    padding-block: 8px;
+    color:white;
+}
+.sign-up{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 32px;
+}
+.call{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 64px;
+    padding-block: 32px;
+    border-radius: 6px;
+}
+.call-to-action{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    color:#E5E7EB;
+}
+.call-to-action p{
+    margin-right: 64px;
+    margin-block:0;    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
